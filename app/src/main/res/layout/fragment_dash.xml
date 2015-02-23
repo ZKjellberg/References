@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:padding="10dp">
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:padding="10dp"
+            android:text="Asset Status"
+            android:textColor="#000"
+            android:textSize="32sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:padding="15dp"
+            android:text="Status: "
+            android:textColor="#FFF"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#424242"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Paused"
+            android:textColor="#FFF"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="LAT: "
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#424242"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="-01.10219"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="LON: "
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#424242"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="54.60344"
+            android:textColor="#FFFFFF"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Fuel:"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#424242"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="80%"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=" Time"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#424242"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="3H 10M"
+            android:textColor="#FFFFFF"/>
+
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Row 2 column 1"
+            android:textColor="#FFF"
+            android:background="#03A9F4" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Row 2 column 2"
+            android:textColor="#FFF"
+            android:background="#2196F3" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#1976D2"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Row 2 column 3"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#0D47A1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Row 2 column 4"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Row 3 column 1"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#FF4081"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Row 3 column 2"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+
+
+</TableLayout>

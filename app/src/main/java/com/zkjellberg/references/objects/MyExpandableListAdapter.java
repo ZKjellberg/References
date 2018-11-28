@@ -42,7 +42,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.listrow_details, null);
         }
-        text = (TextView) convertView.findViewById(R.id.textView1);
+        text = convertView.findViewById(R.id.textView1);
         text.setText(children);
         convertView.setOnClickListener(new View.OnClickListener()  {
             @Override

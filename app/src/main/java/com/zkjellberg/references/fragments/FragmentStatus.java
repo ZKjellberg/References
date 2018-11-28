@@ -26,7 +26,7 @@ public class FragmentStatus extends Fragment {
         View v = inflater.inflate(R.layout.fragment_status, container, false);
 
         // UGV Task Status
-        TextView containerAssetStatus = (TextView) v.findViewById(R.id.textViewContainerAssetStatus);
+        TextView containerAssetStatus = v.findViewById(R.id.textViewContainerAssetStatus);
         containerAssetStatus.setText(
                 "Current Pose: Pitch, Roll, Heading\n" +
                 "Current Velocity: 35MPH\n" +

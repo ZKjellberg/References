@@ -28,7 +28,7 @@ public class FragmentExpandListView extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_list, container, false);
         createData();
-        ExpandableListView listView = (ExpandableListView) v.findViewById(R.id.listView);
+        ExpandableListView listView = v.findViewById(R.id.listView);
         MyExpandableListAdapter adapter = new MyExpandableListAdapter(getActivity(), groups);
         listView.setAdapter(adapter);
         return v;
